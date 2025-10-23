@@ -7,7 +7,7 @@ import java.io.PrintWriter;
 public class generarInforme {
     public static final String INFORME = "informe.md";
     public void guardarInforme (String contenido) {
-        try(PrintWriter pw = new PrintWriter(new FileWriter(INFORME, true))){
+        try(PrintWriter pw = new PrintWriter(new FileWriter(INFORME))){
             pw.println(contenido);
 
 
