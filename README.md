@@ -48,3 +48,14 @@ BufferedReader reader = new BufferedReader(new InputStreamReader(proceso.getInpu
 String linea;
 while ((linea = reader.readLine()) !=null)
 ```
+## Clase `generarInforme`
+
+Esta clase se encarga de guardar texto en un archivo llamado informe.md. Su función principal es el método guardarInforme.
+
+```java
+    public void guardarInforme (String contenido) 
+```
+Constantes
+```java
+    public static final String INFORME = "informe.md"
+```
