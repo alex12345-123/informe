@@ -9,7 +9,6 @@ public class generarInforme {
     public void guardarInforme (String contenido) {
         try(PrintWriter pw = new PrintWriter(new FileWriter(INFORME, true))){
             pw.println(contenido);
-            pw.println("\n---\n");
 
 
         } catch (IOException e) {
